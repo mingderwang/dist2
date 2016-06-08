@@ -1,0 +1,10 @@
+<!doctype html><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes"><title>Turboteam Consulting</title><script src="/bower_components/webcomponentsjs/webcomponents.js"></script><link rel="import" href="/bower_components/polymer/polymer.html"><link rel="import" href="/bower_components/flatiron-director/flatiron-director.html"><link rel="import" href="/elements/music-demo.html"><link rel="stylesheet" href="/css/styles.css" shim-shadowdom=""></head><body unresolved=""><template is="auto-binding"><flatiron-director route="{{route}}" autohash=""></flatiron-director><div class="green"></div><music-demo route="{{route}}"></music-demo><script>
+        document.querySelector('music-demo').albums = [
+          { route: 'tycho-fragments', artist: 'performance monitoring', album: 'iPOC', color: '#f4db33' },
+          { route: 'tycho-past-prologue', artist: 'loggings management', album: 'ELK+', color: '#972ff8' },
+          { route: 'tycho-spectre', artist: 'clound machine learning', album: 'cML', color: '#7dd6fe' },
+          { route: 'tycho-chef', artist: 'ansible', album: 'iChef', color: '#dc3c84' },
+          { route: 'tycho-devops', artist: 'deops support', album: '中文FAQ', color: '#113c84' },
+          { route: 'tycho-devops', artist: 'deops support', album: 'Agile+', color: '#a13c84' }
+        ];
+      </script></template></body></html>
